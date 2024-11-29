@@ -1,0 +1,17 @@
+# This file is copied from https://github.com/RobotWebTools/rosbridge_suite/blob/ros2/LICENSE
+*.pyc
+*.iml
+*.swp
+.project
+.pydevproject
+.DS_Store
+.idea
+.mypy_cache
+
+.vscode/*
+!.vscode/extensions.json
+
+# colcon/CMake output
+build
+install
+log
