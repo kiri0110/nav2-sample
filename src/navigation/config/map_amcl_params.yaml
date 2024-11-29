@@ -1,0 +1,5 @@
+# map_server_params.yaml
+map_server_amcl:
+  ros__parameters:
+    yaml_filename: "src/navigation/map/field.yaml"
+    topic_name: "map_amcl"
