@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000200] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.008034] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.008361] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '/home/robostep/nav2-sample/src/urg_node2', '-DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/urg_node2'], 'cwd': '/home/robostep/nav2-sample/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'robostep'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/robostep'), ('OLDPWD', '/home/robostep'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'robostep'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robostep'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robostep:@/tmp/.ICE-unix/2550,unix/robostep:/tmp/.ICE-unix/2550'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9bec772_ddaf_4831_ba88_f0fafbf88fcb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGVQX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robostep/nav2-sample/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099445] (-) TimerEvent: {}
+[0.106846] (urg_node2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199577] (-) TimerEvent: {}
+[0.203156] (urg_node2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.211720] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.278356] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285331] (urg_node2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285733] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.286373] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.289477] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299709] (-) TimerEvent: {}
+[0.364420] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.371624] (urg_node2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.371965] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372447] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.376401] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.399830] (-) TimerEvent: {}
+[0.500100] (-) TimerEvent: {}
+[0.536329] (urg_node2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600234] (-) TimerEvent: {}
+[0.622088] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.668808] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.681659] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.700358] (-) TimerEvent: {}
+[0.700583] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.735328] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800493] (-) TimerEvent: {}
+[0.900790] (-) TimerEvent: {}
+[0.911710] (urg_node2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.914478] (urg_node2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000913] (-) TimerEvent: {}
+[1.018836] (urg_node2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.043980] (urg_node2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.084885] (urg_node2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101017] (-) TimerEvent: {}
+[1.201284] (-) TimerEvent: {}
+[1.263642] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.6 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[1.301418] (-) TimerEvent: {}
+[1.369538] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 21.0.6 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)\n'}
+[1.401530] (-) TimerEvent: {}
+[1.480734] (urg_node2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[1.501644] (-) TimerEvent: {}
+[1.601889] (-) TimerEvent: {}
+[1.698166] (urg_node2) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.1.0 (/opt/ros/iron/share/diagnostic_updater/cmake)\n'}
+[1.702027] (-) TimerEvent: {}
+[1.794403] (urg_node2) StdoutLine: {'line': b'-- Found laser_proc: 1.0.2 (/opt/ros/iron/share/laser_proc/cmake)\n'}
+[1.802126] (-) TimerEvent: {}
+[1.815735] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.5 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[1.818473] (urg_node2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.821623] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.893355] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.893707] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.902222] (-) TimerEvent: {}
+[1.963227] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.964481] (urg_node2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.002348] (-) TimerEvent: {}
+[2.040873] (urg_node2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.073910] (urg_node2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.075931] (urg_node2) StdoutLine: {'line': b'-- Build files have been written to: /home/robostep/nav2-sample/build/urg_node2\n'}
+[2.086104] (urg_node2) CommandEnded: {'returncode': 0}
+[2.086820] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[2.088097] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robostep/nav2-sample/build/urg_node2', '--', '-j8', '-l8'], 'cwd': '/home/robostep/nav2-sample/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'robostep'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/robostep'), ('OLDPWD', '/home/robostep'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'robostep'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robostep'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robostep:@/tmp/.ICE-unix/2550,unix/robostep:/tmp/.ICE-unix/2550'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9bec772_ddaf_4831_ba88_f0fafbf88fcb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGVQX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robostep/nav2-sample/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.102486] (-) TimerEvent: {}
+[2.138475] (urg_node2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o\x1b[0m\n'}
+[2.139899] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o\x1b[0m\n'}
+[2.140122] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o\x1b[0m\n'}
+[2.140320] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.140493] (urg_node2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.140629] (urg_node2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o\x1b[0m\n'}
+[2.141587] (urg_node2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o\x1b[0m\n'}
+[2.146998] (urg_node2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o\x1b[0m\n'}
+[2.184492] (urg_node2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o\x1b[0m\n'}
+[2.184809] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robostep/nav2-sample/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.184966] (urg_node2) StderrLine: {'line': b' 1349 | static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int receive_II_command_response(urg_t *urg,\n'}
+[2.185085] (urg_node2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.185208] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robostep/nav2-sample/src/urg_node2/urg_library/current/src/urg_utils.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kurg_delay\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.185430] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robostep/nav2-sample/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kurg_sleep\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.185603] (urg_node2) StderrLine: {'line': b'  224 |     \x1b[01;35m\x1b[Kusleep\x1b[m\x1b[K(1000 * delay_msec);\n'}
+[2.185739] (urg_node2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.185871] (urg_node2) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kurg_sleep\x1b[m\x1b[K\n'}
+[2.191977] (urg_node2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o\x1b[0m\n'}
+[2.197942] (urg_node2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o\x1b[0m\n'}
+[2.202587] (-) TimerEvent: {}
+[2.281037] (urg_node2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library liburg_c.so\x1b[0m\n'}
+[2.302710] (-) TimerEvent: {}
+[2.316274] (urg_node2) StdoutLine: {'line': b'[ 60%] Built target urg_c\n'}
+[2.336092] (urg_node2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[2.402805] (-) TimerEvent: {}
+[2.503101] (-) TimerEvent: {}
+[2.603434] (-) TimerEvent: {}
+[2.703734] (-) TimerEvent: {}
+[2.804066] (-) TimerEvent: {}
+[2.863027] (urg_node2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.894642] (urg_node2) StdoutLine: {'line': b'[ 70%] Built target gtest_main\n'}
+[2.904164] (-) TimerEvent: {}
+[3.004451] (-) TimerEvent: {}
+[3.104783] (-) TimerEvent: {}
+[3.205061] (-) TimerEvent: {}
+[3.305341] (-) TimerEvent: {}
+[3.405620] (-) TimerEvent: {}
+[3.505899] (-) TimerEvent: {}
+[3.606152] (-) TimerEvent: {}
+[3.706408] (-) TimerEvent: {}
+[3.806672] (-) TimerEvent: {}
+[3.906940] (-) TimerEvent: {}
+[4.007205] (-) TimerEvent: {}
+[4.107471] (-) TimerEvent: {}
+[4.207738] (-) TimerEvent: {}
+[4.308005] (-) TimerEvent: {}
+[4.408275] (-) TimerEvent: {}
+[4.508542] (-) TimerEvent: {}
+[4.608816] (-) TimerEvent: {}
+[4.709090] (-) TimerEvent: {}
+[4.809363] (-) TimerEvent: {}
+[4.909636] (-) TimerEvent: {}
+[4.995981] (urg_node2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.009753] (-) TimerEvent: {}
+[5.055382] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[5.075227] (urg_node2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[5.075470] (urg_node2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o\x1b[0m\n'}
+[5.109863] (-) TimerEvent: {}
+[5.210165] (-) TimerEvent: {}
+[5.310457] (-) TimerEvent: {}
+[5.410748] (-) TimerEvent: {}
+[5.511033] (-) TimerEvent: {}
+[5.611323] (-) TimerEvent: {}
+[5.711618] (-) TimerEvent: {}
+[5.811920] (-) TimerEvent: {}
+[5.912223] (-) TimerEvent: {}
+[6.012521] (-) TimerEvent: {}
+[6.096588] (urg_node2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_node\x1b[0m\n'}
+[6.112621] (-) TimerEvent: {}
+[6.212907] (-) TimerEvent: {}
+[6.269069] (urg_node2) StdoutLine: {'line': b'[ 90%] Built target urg_node2_node\n'}
+[6.313037] (-) TimerEvent: {}
+[6.413302] (-) TimerEvent: {}
+[6.513573] (-) TimerEvent: {}
+[6.613842] (-) TimerEvent: {}
+[6.714091] (-) TimerEvent: {}
+[6.814366] (-) TimerEvent: {}
+[6.914632] (-) TimerEvent: {}
+[7.014894] (-) TimerEvent: {}
+[7.115163] (-) TimerEvent: {}
+[7.215428] (-) TimerEvent: {}
+[7.315692] (-) TimerEvent: {}
+[7.415955] (-) TimerEvent: {}
+[7.516219] (-) TimerEvent: {}
+[7.616488] (-) TimerEvent: {}
+[7.716756] (-) TimerEvent: {}
+[7.817021] (-) TimerEvent: {}
+[7.917286] (-) TimerEvent: {}
+[8.017553] (-) TimerEvent: {}
+[8.117816] (-) TimerEvent: {}
+[8.218059] (-) TimerEvent: {}
+[8.318319] (-) TimerEvent: {}
+[8.418565] (-) TimerEvent: {}
+[8.518903] (-) TimerEvent: {}
+[8.605148] (urg_node2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library liburg_node2.so\x1b[0m\n'}
+[8.619008] (-) TimerEvent: {}
+[8.719357] (-) TimerEvent: {}
+[8.819679] (-) TimerEvent: {}
+[8.905695] (urg_node2) StdoutLine: {'line': b'[ 95%] Built target urg_node2\n'}
+[8.919792] (-) TimerEvent: {}
+[9.020053] (-) TimerEvent: {}
+[9.120319] (-) TimerEvent: {}
+[9.220603] (-) TimerEvent: {}
+[9.320888] (-) TimerEvent: {}
+[9.421172] (-) TimerEvent: {}
+[9.521460] (-) TimerEvent: {}
+[9.621753] (-) TimerEvent: {}
+[9.722000] (-) TimerEvent: {}
+[9.822246] (-) TimerEvent: {}
+[9.922503] (-) TimerEvent: {}
+[10.022758] (-) TimerEvent: {}
+[10.123024] (-) TimerEvent: {}
+[10.223280] (-) TimerEvent: {}
+[10.323529] (-) TimerEvent: {}
+[10.423783] (-) TimerEvent: {}
+[10.524037] (-) TimerEvent: {}
+[10.624290] (-) TimerEvent: {}
+[10.724543] (-) TimerEvent: {}
+[10.824799] (-) TimerEvent: {}
+[10.925076] (-) TimerEvent: {}
+[11.025343] (-) TimerEvent: {}
+[11.125702] (-) TimerEvent: {}
+[11.226040] (-) TimerEvent: {}
+[11.326375] (-) TimerEvent: {}
+[11.426657] (-) TimerEvent: {}
+[11.526960] (-) TimerEvent: {}
+[11.627258] (-) TimerEvent: {}
+[11.727504] (-) TimerEvent: {}
+[11.827854] (-) TimerEvent: {}
+[11.928130] (-) TimerEvent: {}
+[12.028433] (-) TimerEvent: {}
+[12.128748] (-) TimerEvent: {}
+[12.229039] (-) TimerEvent: {}
+[12.329336] (-) TimerEvent: {}
+[12.429617] (-) TimerEvent: {}
+[12.529879] (-) TimerEvent: {}
+[12.630126] (-) TimerEvent: {}
+[12.730387] (-) TimerEvent: {}
+[12.830659] (-) TimerEvent: {}
+[12.930960] (-) TimerEvent: {}
+[13.031257] (-) TimerEvent: {}
+[13.131574] (-) TimerEvent: {}
+[13.231872] (-) TimerEvent: {}
+[13.332172] (-) TimerEvent: {}
+[13.432478] (-) TimerEvent: {}
+[13.532785] (-) TimerEvent: {}
+[13.633082] (-) TimerEvent: {}
+[13.733381] (-) TimerEvent: {}
+[13.833684] (-) TimerEvent: {}
+[13.934012] (-) TimerEvent: {}
+[14.034313] (-) TimerEvent: {}
+[14.134617] (-) TimerEvent: {}
+[14.234921] (-) TimerEvent: {}
+[14.335223] (-) TimerEvent: {}
+[14.435523] (-) TimerEvent: {}
+[14.535824] (-) TimerEvent: {}
+[14.636128] (-) TimerEvent: {}
+[14.736432] (-) TimerEvent: {}
+[14.836731] (-) TimerEvent: {}
+[14.937031] (-) TimerEvent: {}
+[15.037331] (-) TimerEvent: {}
+[15.137643] (-) TimerEvent: {}
+[15.237968] (-) TimerEvent: {}
+[15.338268] (-) TimerEvent: {}
+[15.438565] (-) TimerEvent: {}
+[15.538867] (-) TimerEvent: {}
+[15.639173] (-) TimerEvent: {}
+[15.739474] (-) TimerEvent: {}
+[15.839827] (-) TimerEvent: {}
+[15.940153] (-) TimerEvent: {}
+[16.040451] (-) TimerEvent: {}
+[16.140763] (-) TimerEvent: {}
+[16.241044] (-) TimerEvent: {}
+[16.309399] (urg_node2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_test\x1b[0m\n'}
+[16.341189] (-) TimerEvent: {}
+[16.441501] (-) TimerEvent: {}
+[16.541809] (-) TimerEvent: {}
+[16.642102] (-) TimerEvent: {}
+[16.742357] (-) TimerEvent: {}
+[16.842615] (-) TimerEvent: {}
+[16.942882] (-) TimerEvent: {}
+[17.043132] (-) TimerEvent: {}
+[17.088133] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[17.099138] (urg_node2) CommandEnded: {'returncode': 0}
+[17.143223] (-) TimerEvent: {}
+[17.149362] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[17.158141] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robostep/nav2-sample/build/urg_node2'], 'cwd': '/home/robostep/nav2-sample/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'robostep'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/robostep'), ('OLDPWD', '/home/robostep'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'robostep'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robostep'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robostep:@/tmp/.ICE-unix/2550,unix/robostep:/tmp/.ICE-unix/2550'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9bec772_ddaf_4831_ba88_f0fafbf88fcb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGVQX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robostep/nav2-sample/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[17.166029] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.166295] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[17.167108] (urg_node2) StdoutLine: {'line': b'-- Set runtime path of "/home/robostep/nav2-sample/install/urg_node2/lib/urg_node2/urg_node2_node" to ""\n'}
+[17.167304] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/lib/liburg_node2.so\n'}
+[17.170190] (urg_node2) StdoutLine: {'line': b'-- Set runtime path of "/home/robostep/nav2-sample/install/urg_node2/lib/liburg_node2.so" to ""\n'}
+[17.170464] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/lib/liburg_c.so\n'}
+[17.170750] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/launch\n'}
+[17.170875] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[17.170972] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[17.171056] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[17.171137] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/config\n'}
+[17.171216] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[17.171278] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[17.171345] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[17.171436] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[17.171560] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[17.171744] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[17.171914] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[17.172057] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[17.172238] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[17.172347] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[17.172509] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[17.172636] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[17.172738] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[17.172886] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.dsv\n'}
+[17.173057] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[17.173234] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[17.173464] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[17.173568] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[17.173673] (urg_node2) StdoutLine: {'line': b'-- Installing: /home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.xml\n'}
+[17.176036] (urg_node2) CommandEnded: {'returncode': 0}
+[17.243780] (-) TimerEvent: {}
+[17.252931] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[17.253708] (-) EventReactorShutdown: {}
