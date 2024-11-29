@@ -12,10 +12,7 @@ cd ..
 
   # Lifecycle Manager の起動
   gnome-terminal --tab -t "MAP_AMCL_LIFECYCLE" -- bash -c \
-    "ros2 run nav2_lifecycle_manager lifecycle_manager \
-    --ros-args -p autostart:=True \
-    -p node_names:=['map_server_amcl'] \
-    -p use_sim_time:=False; bash"
+    "ros2 run nav2_lifecycle_manager lifecycle_manager --ros-args -p autostart:=True -p node_names:=['map_server_amcl'] -p use_sim_time:=False; bash"
 
   sleep 1
 

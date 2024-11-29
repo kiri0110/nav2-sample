@@ -16,7 +16,7 @@
         <origin xyz="0 0 -0.09" rpy="0 0 0"/>
     </joint>
 
-    <link name="lidar_link1">
+    <link name="lidar_link">
         <visual>
             <geometry>
                 <cylinder radius="0.006" length="0.01"/>
@@ -26,7 +26,7 @@
 
     <joint name="lidar_joint" type="fixed">
         <parent link="base_link"/>
-        <child link="lidar_link1"/>
+        <child link="lidar_link"/>
         <origin xyz="-0.3155 0 0" rpy="3.14 0 3.14"/>
     </joint>
 </robot>
