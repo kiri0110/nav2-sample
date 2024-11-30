@@ -137,4 +137,3 @@ def generate_launch_description():
         rviz_cmd,
         bringup_cmd,
         ])
-

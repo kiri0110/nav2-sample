@@ -56,6 +56,7 @@ class PyAshi(Node):
         vy = msg.linear.x * 1000.0
         vx = msg.linear.y * 1000.0 * -1.0
         omega = msg.angular.z
+        print(vx,vy,omega)
 
         frame = self.wser.construct_can_frame(vx, vy, omega)
 

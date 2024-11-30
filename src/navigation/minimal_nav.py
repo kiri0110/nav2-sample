@@ -40,8 +40,8 @@ class Commander(Node):
         
         #GOALの設定
         self.goal0 = self.create_pose(x = 1.0, y = 1.0, yaw = 0.0)
-        self.goal1 = self.create_pose(x = 1.5, y = 1.0, yaw = math.pi/2)
-        self.goal2 = self.create_pose(x = 2.0, y = 1.0, yaw = -math.pi/2)
+        self.goal1 = self.create_pose(x = 1.5, y = 1.0, yaw = 0.0)
+        self.goal2 = self.create_pose(x = 2.0, y = 1.0, yaw = 0.0)
 
 
     def create_pose(self, x, y, yaw):
@@ -59,8 +59,9 @@ class Commander(Node):
         # self.nav.waitUntilNav2Active()
         self.nav.lifecycleStartup()
 
-        #goal1に移動
+        #goal0に移動
         self.nav.goToPose(self.goal0)
+        self.get_logger().info("moving to goal0")
         while not self.nav.isTaskComplete():
             time.sleep(0.05)
         result = self.nav.getResult()
@@ -70,21 +71,23 @@ class Commander(Node):
         for _ in range(3):  # 3回往復
             #goal1
             self.nav.goToPose(self.goal1)
+            self.get_logger().info("moving to goal1")
             while not self.nav.isTaskComplete():
                 time.sleep(0.05)
             result = self.nav.getResult()
             rclpy.logging.get_logger('minimal_nav').info(f"Result: {result}")
 
-            time.sleep(1)
+            time.sleep(3)
 
             #goal2
             self.nav.goToPose(self.goal2)
+            self.get_logger().info("moving to goal2")
             while not self.nav.isTaskComplete():
                 time.sleep(0.05)
             result = self.nav.getResult()
             rclpy.logging.get_logger('minimal_nav').info(f"Result: {result}")
 
-            time.sleep(1)
+            time.sleep(3)
 
 def main(args=None):
     rclpy.init(args=args)
