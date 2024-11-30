@@ -10,10 +10,10 @@ import geometry_msgs.msg
 import can_msgs.msg
 
 def serialize_float(f):
-    return bytearray(struct.pack('>f', f))
+    return bytearray(struct.pack('<f', f))
 
 def serialize_int(h):
-    return bytearray(struct.pack('>h', h))
+    return bytearray(struct.pack('<h', h))
 
 
 class WheelsSerializer:
