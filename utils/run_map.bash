@@ -18,7 +18,7 @@ cd ..
 
   # RViz2 の起動
   gnome-terminal --tab -t "RVIZ2" -- bash -c \
-    "source install/local_setup.bash ; \
+    "source install/setup.bash ; \
     cd $WORKSPACE_PATH/src/navigation/launch ; \
     ros2 launch simple.launch.py urdf:=$WORKSPACE_PATH/urdf/er.urdf.xacro map:=$WORKSPACE_PATH/src/navigation/map/field.yaml rviz_config_file:=$WORKSPACE_PATH/src/navigation/rviz/nav2_default_view.rviz params_file:=$WORKSPACE_PATH/src/navigation/config/nav2_params_critics.yaml use_sim_time:=False | grep -v INFO ; bash"
 

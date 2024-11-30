@@ -1,0 +1,111 @@
+[0.033s] Invoking command in '/home/tm/nav2-sample/build/gazebo_ros_indep_steer_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tm/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive -DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/gazebo_ros_indep_steer_drive
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.279s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.438s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.642s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.647s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.218s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.219s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.219s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.219s]   problems in calling code that expects `find_package` result variables
+[1.219s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.219s] Call Stack (most recent call first):
+[1.219s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.219s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.219s]   CMakeLists.txt:6 (find_package)
+[1.219s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.220s] [0m
+[1.220s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.229s] -- Checking for module 'bullet>=2.82'
+[1.250s] --   Found bullet, version 3.05
+[1.432s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.539s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.576s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.223s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.283s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.292s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.307s] -- Searching for dependencies of ignition-math6
+[2.308s] -- Looking for OGRE...
+[2.308s] -- OGRE_PREFIX_WATCH changed.
+[2.319s] -- Checking for module 'OGRE'
+[2.339s] --   Found OGRE, version 1.9.0
+[2.428s] -- Found Ogre Ghadamon (1.9.0)
+[2.429s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.444s] -- Looking for OGRE_Paging...
+[2.470s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.470s] -- Looking for OGRE_Terrain...
+[2.507s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.507s] -- Looking for OGRE_Property...
+[2.508s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.508s] -- Looking for OGRE_RTShaderSystem...
+[2.525s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.525s] -- Looking for OGRE_Volume...
+[2.540s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.542s] -- Looking for OGRE_Overlay...
+[2.555s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.798s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.803s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.803s] -- Searching for dependencies of ignition-transport8
+[2.833s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.852s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.861s] -- Checking for module 'libzmq >= 4'
+[2.884s] --   Found libzmq , version 4.3.4
+[2.946s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.958s] -- Checking for module 'uuid'
+[2.979s] --   Found uuid, version 2.37.2
+[3.038s] -- Found UUID: TRUE  
+[3.041s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.042s] -- Searching for dependencies of ignition-msgs5
+[3.079s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.088s] -- Checking for module 'tinyxml2'
+[3.109s] --   Found tinyxml2, version 9.0.0
+[3.164s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.169s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.169s] -- Searching for dependencies of ignition-common3
+[3.170s] -- Looking for dlfcn.h - found
+[3.172s] -- Looking for libdl - found
+[3.174s] -- Found DL: TRUE  
+[3.192s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.199s] -- Searching for <ignition-common3> component [graphics]
+[3.199s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.200s] -- Searching for dependencies of ignition-common3-graphics
+[3.200s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.202s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.204s] -- Searching for dependencies of ignition-fuel_tools4
+[3.341s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.353s] -- Checking for module 'jsoncpp'
+[3.377s] --   Found jsoncpp, version 1.9.5
+[3.427s] -- Found JSONCPP: TRUE  
+[3.438s] -- Checking for module 'libzip'
+[3.455s] --   Found libzip, version 1.7.3
+[3.511s] -- Found ZIP: TRUE  
+[3.511s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.512s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.513s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.523s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[3.590s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.614s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.013s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.018s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.222s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.269s] -- Found FastRTPS: /opt/ros/iron/include  
+[4.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.715s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[4.910s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[4.921s] -- Gazebo version: 11.10
+[4.922s] -- Checking for module 'tbb'
+[4.943s] --   Found tbb, version 2021.5.0
+[5.099s] -- Configuring done
+[5.121s] -- Generating done
+[5.123s] -- Build files have been written to: /home/tm/nav2-sample/build/gazebo_ros_indep_steer_drive

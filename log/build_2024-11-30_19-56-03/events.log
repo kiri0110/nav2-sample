@@ -1,0 +1,908 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (dwb_more_critics) JobQueued: {'identifier': 'dwb_more_critics', 'dependencies': OrderedDict()}
+[0.000257] (gazebo_ros_indep_steer_drive) JobQueued: {'identifier': 'gazebo_ros_indep_steer_drive', 'dependencies': OrderedDict()}
+[0.000276] (gazebo_ros_omni_drive) JobQueued: {'identifier': 'gazebo_ros_omni_drive', 'dependencies': OrderedDict()}
+[0.000293] (gazebo_ros_wheel_odometry) JobQueued: {'identifier': 'gazebo_ros_wheel_odometry', 'dependencies': OrderedDict()}
+[0.000308] (openbase_gazebo_models) JobQueued: {'identifier': 'openbase_gazebo_models', 'dependencies': OrderedDict()}
+[0.000323] (openbase_nav2_demo) JobQueued: {'identifier': 'openbase_nav2_demo', 'dependencies': OrderedDict()}
+[0.000337] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000352] (dwb_more_critics) JobStarted: {'identifier': 'dwb_more_critics'}
+[0.006347] (gazebo_ros_indep_steer_drive) JobStarted: {'identifier': 'gazebo_ros_indep_steer_drive'}
+[0.009919] (gazebo_ros_omni_drive) JobStarted: {'identifier': 'gazebo_ros_omni_drive'}
+[0.014575] (gazebo_ros_wheel_odometry) JobStarted: {'identifier': 'gazebo_ros_wheel_odometry'}
+[0.019396] (openbase_gazebo_models) JobStarted: {'identifier': 'openbase_gazebo_models'}
+[0.022971] (openbase_nav2_demo) JobStarted: {'identifier': 'openbase_nav2_demo'}
+[0.027051] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.034793] (dwb_more_critics) JobProgress: {'identifier': 'dwb_more_critics', 'progress': 'cmake'}
+[0.035027] (dwb_more_critics) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/dwb_more_critics', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/dwb_more_critics'], 'cwd': '/home/tm/nav2-sample/build/dwb_more_critics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/dwb_more_critics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.037546] (gazebo_ros_indep_steer_drive) JobProgress: {'identifier': 'gazebo_ros_indep_steer_drive', 'progress': 'cmake'}
+[0.037707] (gazebo_ros_indep_steer_drive) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/gazebo_ros_indep_steer_drive'], 'cwd': '/home/tm/nav2-sample/build/gazebo_ros_indep_steer_drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/gazebo_ros_indep_steer_drive'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.041855] (gazebo_ros_omni_drive) JobProgress: {'identifier': 'gazebo_ros_omni_drive', 'progress': 'cmake'}
+[0.042305] (gazebo_ros_omni_drive) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/gazebo_ros_omni_drive', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/gazebo_ros_omni_drive'], 'cwd': '/home/tm/nav2-sample/build/gazebo_ros_omni_drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/gazebo_ros_omni_drive'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.044307] (gazebo_ros_wheel_odometry) JobProgress: {'identifier': 'gazebo_ros_wheel_odometry', 'progress': 'cmake'}
+[0.044357] (gazebo_ros_wheel_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/gazebo_ros_wheel_odometry'], 'cwd': '/home/tm/nav2-sample/build/gazebo_ros_wheel_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/gazebo_ros_wheel_odometry'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.049235] (openbase_gazebo_models) JobProgress: {'identifier': 'openbase_gazebo_models', 'progress': 'cmake'}
+[0.049326] (openbase_gazebo_models) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/openbase_gazebo_models', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/openbase_gazebo_models'], 'cwd': '/home/tm/nav2-sample/build/openbase_gazebo_models', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_gazebo_models'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.053747] (openbase_nav2_demo) JobProgress: {'identifier': 'openbase_nav2_demo', 'progress': 'cmake'}
+[0.054046] (openbase_nav2_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/OpenBase/openbase_nav2_demo', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/openbase_nav2_demo'], 'cwd': '/home/tm/nav2-sample/build/openbase_nav2_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_nav2_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.062213] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.062285] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '/home/tm/nav2-sample/src/urg_node2', '-DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/urg_node2'], 'cwd': '/home/tm/nav2-sample/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099040] (-) TimerEvent: {}
+[0.136232] (dwb_more_critics) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.138102] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.152070] (openbase_gazebo_models) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.155110] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.162095] (openbase_nav2_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.163079] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199158] (-) TimerEvent: {}
+[0.256240] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261260] (dwb_more_critics) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.268567] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270302] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.271998] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.273857] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.285400] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.285692] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.289251] (openbase_nav2_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.291385] (openbase_gazebo_models) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299333] (-) TimerEvent: {}
+[0.305296] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.307838] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400062] (-) TimerEvent: {}
+[0.409982] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.412201] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.419045] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.426640] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.429286] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.429796] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.430696] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.432937] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.433741] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.434722] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.436073] (dwb_more_critics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.436452] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.437163] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.438176] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.439686] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.442490] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.442843] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.444530] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.444840] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.447631] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.449089] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450441] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.468424] (openbase_gazebo_models) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.468788] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.469271] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.472593] (openbase_nav2_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.472935] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.473689] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.474641] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.482167] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500575] (-) TimerEvent: {}
+[0.581970] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.596855] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600685] (-) TimerEvent: {}
+[0.605049] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.605261] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.606622] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.613068] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.613391] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.613514] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.613766] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.613893] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.614600] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.627970] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.633322] (dwb_more_critics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.634877] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.635103] (dwb_more_critics) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.638215] (dwb_more_critics) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.647584] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.648009] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.648353] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.649434] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.653938] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.654255] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.665646] (openbase_nav2_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.666005] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.671090] (openbase_nav2_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.671411] (openbase_nav2_demo) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.687022] (openbase_gazebo_models) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.687266] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.687932] (openbase_gazebo_models) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.698154] (openbase_gazebo_models) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.700846] (-) TimerEvent: {}
+[0.804054] (-) TimerEvent: {}
+[0.904609] (-) TimerEvent: {}
+[0.947325] (dwb_more_critics) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.963615] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.004725] (-) TimerEvent: {}
+[1.005475] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.022884] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.047606] (openbase_nav2_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.104846] (-) TimerEvent: {}
+[1.131824] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.132139] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.132268] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.132370] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.132479] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.132578] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.132682] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.132784] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.132881] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'  CMakeLists.txt:6 (find_package)\n'}
+[1.135062] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.135306] (gazebo_ros_wheel_odometry) StderrLine: {'line': b'\x1b[0m\n'}
+[1.135409] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.142039] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.147825] (openbase_gazebo_models) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.163601] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.204965] (-) TimerEvent: {}
+[1.211623] (gazebo_ros_omni_drive) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.211932] (gazebo_ros_omni_drive) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.212045] (gazebo_ros_omni_drive) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.213490] (gazebo_ros_omni_drive) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.213774] (gazebo_ros_omni_drive) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.213864] (gazebo_ros_omni_drive) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.215130] (gazebo_ros_omni_drive) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.215237] (gazebo_ros_omni_drive) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.215322] (gazebo_ros_omni_drive) StderrLine: {'line': b'  CMakeLists.txt:6 (find_package)\n'}
+[1.215406] (gazebo_ros_omni_drive) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.215485] (gazebo_ros_omni_drive) StderrLine: {'line': b'\x1b[0m\n'}
+[1.216051] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.225216] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.225485] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.225604] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.225708] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.225811] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.225914] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.226027] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.226135] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.226237] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'  CMakeLists.txt:6 (find_package)\n'}
+[1.226338] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.226442] (gazebo_ros_indep_steer_drive) StderrLine: {'line': b'\x1b[0m\n'}
+[1.226551] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.226680] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.236011] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.252069] (openbase_nav2_demo) StdoutLine: {'line': b'-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)\n'}
+[1.253935] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.256672] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.268670] (dwb_more_critics) StdoutLine: {'line': b'-- Found nav2_common: 1.2.10 (/opt/ros/iron/share/nav2_common/cmake)\n'}
+[1.269009] (dwb_more_critics) StdoutLine: {'line': b'-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)\n'}
+[1.273769] (dwb_more_critics) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.2.10 (/opt/ros/iron/share/nav2_costmap_2d/cmake)\n'}
+[1.305071] (-) TimerEvent: {}
+[1.323046] (openbase_gazebo_models) StdoutLine: {'line': b'-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)\n'}
+[1.364472] (dwb_more_critics) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.367680] (openbase_nav2_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.372537] (openbase_nav2_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.372839] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.373920] (openbase_nav2_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/openbase_nav2_demo\n'}
+[1.389384] (dwb_more_critics) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.397054] (urg_node2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.397709] (urg_node2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.397833] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.397925] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.398029] (urg_node2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.398125] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.398219] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.398316] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.398394] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.398473] (urg_node2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.398564] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.398653] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.398744] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.398838] (urg_node2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.398933] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.405285] (-) TimerEvent: {}
+[1.406981] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.407209] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.407318] (openbase_nav2_demo) CommandEnded: {'returncode': 0}
+[1.407924] (openbase_nav2_demo) JobProgress: {'identifier': 'openbase_nav2_demo', 'progress': 'build'}
+[1.407987] (openbase_nav2_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tm/nav2-sample/build/openbase_nav2_demo', '--', '-j8', '-l8'], 'cwd': '/home/tm/nav2-sample/build/openbase_nav2_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_nav2_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.419455] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.432860] (dwb_more_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.438261] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.456870] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.459782] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.469875] (openbase_gazebo_models) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.481478] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.486015] (openbase_gazebo_models) StdoutLine: {'line': b'-- Generating done\n'}
+[1.491033] (dwb_more_critics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.495455] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.496083] (openbase_gazebo_models) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/openbase_gazebo_models\n'}
+[1.502909] (openbase_gazebo_models) CommandEnded: {'returncode': 0}
+[1.503876] (openbase_gazebo_models) JobProgress: {'identifier': 'openbase_gazebo_models', 'progress': 'build'}
+[1.504271] (openbase_gazebo_models) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tm/nav2-sample/build/openbase_gazebo_models', '--', '-j8', '-l8'], 'cwd': '/home/tm/nav2-sample/build/openbase_gazebo_models', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_gazebo_models'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.509295] (-) TimerEvent: {}
+[1.510459] (openbase_nav2_demo) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerating nav_omni4.urdf\x1b[0m\n'}
+[1.545358] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.583103] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.599217] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.617024] (-) TimerEvent: {}
+[1.722043] (-) TimerEvent: {}
+[1.755086] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.822149] (-) TimerEvent: {}
+[1.922544] (-) TimerEvent: {}
+[1.957238] (openbase_nav2_demo) StdoutLine: {'line': b'[100%] Built target nav_omni4\n'}
+[1.974913] (urg_node2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.980031] (urg_node2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.019928] (openbase_gazebo_models) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating openbase_omni3.sdf\x1b[0m\n'}
+[2.020225] (openbase_gazebo_models) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating simplified_omni3.sdf\x1b[0m\n'}
+[2.020360] (openbase_gazebo_models) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating simple_omni_wheel.sdf\x1b[0m\n'}
+[2.020473] (openbase_gazebo_models) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating damped_omni3.sdf\x1b[0m\n'}
+[2.020580] (openbase_gazebo_models) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating unicycle_wheel.sdf\x1b[0m\n'}
+[2.020684] (openbase_gazebo_models) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating omni_wheel.sdf\x1b[0m\n'}
+[2.020792] (openbase_gazebo_models) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating nav_omni4.sdf\x1b[0m\n'}
+[2.020895] (openbase_gazebo_models) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating damped_omni4.sdf\x1b[0m\n'}
+[2.021087] (openbase_gazebo_models) StdoutLine: {'line': b'[ 72%] Built target simple_omni_wheel\n'}
+[2.021193] (openbase_gazebo_models) StdoutLine: {'line': b'[ 72%] Built target openbase_omni3\n'}
+[2.021294] (openbase_gazebo_models) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating indep_steer.sdf\x1b[0m\n'}
+[2.021398] (openbase_gazebo_models) StdoutLine: {'line': b'[ 81%] Built target damped_omni3\n'}
+[2.021505] (openbase_gazebo_models) StdoutLine: {'line': b'[ 90%] \x1b[34m\x1b[1mGenerating primitive_omni_wheel.sdf\x1b[0m\n'}
+[2.021618] (openbase_gazebo_models) StdoutLine: {'line': b'[ 90%] Built target nav_omni4\n'}
+[2.021728] (openbase_gazebo_models) StdoutLine: {'line': b'[ 90%] Built target damped_omni4\n'}
+[2.028417] (openbase_nav2_demo) CommandEnded: {'returncode': 0}
+[2.029348] (-) TimerEvent: {}
+[2.085761] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerating omni4.sdf\x1b[0m\n'}
+[2.126754] (openbase_nav2_demo) JobProgress: {'identifier': 'openbase_nav2_demo', 'progress': 'install'}
+[2.129506] (-) TimerEvent: {}
+[2.144652] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target simplified_omni3\n'}
+[2.146531] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target unicycle_wheel\n'}
+[2.158468] (openbase_nav2_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tm/nav2-sample/build/openbase_nav2_demo'], 'cwd': '/home/tm/nav2-sample/build/openbase_nav2_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_nav2_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.208658] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.229622] (-) TimerEvent: {}
+[2.230134] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.263042] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.263298] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target indep_steer\n'}
+[2.271321] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.276745] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target omni_wheel\n'}
+[2.284757] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.289260] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.289587] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.292176] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.299100] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.302111] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.314223] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.314457] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.314546] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.325099] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target primitive_omni_wheel\n'}
+[2.325538] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.326154] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.329742] (-) TimerEvent: {}
+[2.337060] (urg_node2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.345979] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.348767] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.355975] (openbase_gazebo_models) StdoutLine: {'line': b'[100%] Built target omni4\n'}
+[2.380654] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.380935] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.384795] (openbase_nav2_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.385006] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf/nav_omni4.urdf\n'}
+[2.385102] (openbase_nav2_demo) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf\n'}
+[2.385191] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf/nav_omni4.urdf.xacro\n'}
+[2.385269] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch\n'}
+[2.385342] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__\n'}
+[2.385415] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/simple.launch.cpython-310.pyc\n'}
+[2.385489] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/costmap_filter_info.launch.cpython-310.pyc\n'}
+[2.385564] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/omni4_simulation_launch.cpython-310.pyc\n'}
+[2.385639] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/omni4_simulation_launch.py\n'}
+[2.385716] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/simple.launch.py\n'}
+[2.385793] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/omni4_gazebo.launch.py\n'}
+[2.385873] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/costmap_filter_info.launch.py\n'}
+[2.387998] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params\n'}
+[2.388494] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_bt.yaml\n'}
+[2.388652] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics_no_keepout.yaml\n'}
+[2.388769] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/keepout_params.yaml\n'}
+[2.388868] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics_fast.yaml\n'}
+[2.388992] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics.yaml\n'}
+[2.389124] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_through_poses_bt.xml\n'}
+[2.389222] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_r2.yaml\n'}
+[2.389317] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_localcostmap_322_inflation.yaml\n'}
+[2.389412] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_params.yaml\n'}
+[2.389508] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/map_amcl_params2.yaml\n'}
+[2.389605] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/map_amcl_params.yaml\n'}
+[2.389702] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_to_pose_bt.xml\n'}
+[2.389799] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_to_pose_bt_updateonly.xml\n'}
+[2.389894] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_dwb.yaml\n'}
+[2.421308] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/rviz\n'}
+[2.421445] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/rviz/nav2_default_view.rviz\n'}
+[2.421541] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/worlds\n'}
+[2.421632] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/worlds/world_only.model\n'}
+[2.421724] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/package_run_dependencies/openbase_nav2_demo\n'}
+[2.421812] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/parent_prefix_path/openbase_nav2_demo\n'}
+[2.421903] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/ament_prefix_path.sh\n'}
+[2.422075] (openbase_gazebo_models) CommandEnded: {'returncode': 0}
+[2.428802] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.429044] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/ament_prefix_path.dsv\n'}
+[2.429177] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/path.sh\n'}
+[2.429283] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/path.dsv\n'}
+[2.429385] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.bash\n'}
+[2.429487] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.sh\n'}
+[2.429592] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.zsh\n'}
+[2.429700] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.dsv\n'}
+[2.429795] (-) TimerEvent: {}
+[2.430090] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.dsv\n'}
+[2.430226] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/packages/openbase_nav2_demo\n'}
+[2.430330] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/cmake/openbase_nav2_demoConfig.cmake\n'}
+[2.430429] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/cmake/openbase_nav2_demoConfig-version.cmake\n'}
+[2.430529] (openbase_nav2_demo) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.xml\n'}
+[2.430630] (openbase_nav2_demo) CommandEnded: {'returncode': 0}
+[2.431432] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.435183] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.435309] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.435413] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.435515] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.435616] (dwb_more_critics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.435729] (dwb_more_critics) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.435832] (urg_node2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[2.435941] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.436069] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.436180] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.441003] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.447423] (openbase_gazebo_models) JobProgress: {'identifier': 'openbase_gazebo_models', 'progress': 'install'}
+[2.447483] (openbase_gazebo_models) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tm/nav2-sample/build/openbase_gazebo_models'], 'cwd': '/home/tm/nav2-sample/build/openbase_gazebo_models', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'tm'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/tm'), ('OLDPWD', '/home/tm/PreRobocon2024ROS/r2_utils'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '3768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/tm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tm-ssd:@/tmp/.ICE-unix/1380,unix/tm-ssd:/tmp/.ICE-unix/1380'), ('GDM_LANG', 'en'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe4e9b4c_db6b_431f_9720_ec938e661038'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/tm/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/tm'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tm/nav2-sample/build/openbase_gazebo_models'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.450297] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.457888] (openbase_gazebo_models) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.458208] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.458323] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.459742] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf\n'}
+[2.460048] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf\n'}
+[2.460318] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf\n'}
+[2.460532] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf\n'}
+[2.460751] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf\n'}
+[2.461190] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf\n'}
+[2.461377] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf\n'}
+[2.461517] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf\n'}
+[2.461641] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf\n'}
+[2.461802] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf\n'}
+[2.462402] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf\n'}
+[2.462761] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models\n'}
+[2.463158] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer\n'}
+[2.463492] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.config\n'}
+[2.463803] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf.xacro\n'}
+[2.464146] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3\n'}
+[2.464639] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body_reduced.stl\n'}
+[2.464747] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.config\n'}
+[2.464831] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf.xacro\n'}
+[2.465430] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body.stl\n'}
+[2.465961] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4\n'}
+[2.466080] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.config\n'}
+[2.466166] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf.xacro\n'}
+[2.466265] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel\n'}
+[2.466364] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.config\n'}
+[2.466472] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf.xacro\n'}
+[2.466561] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test\n'}
+[2.466660] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.config\n'}
+[2.466759] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.sdf\n'}
+[2.466856] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel\n'}
+[2.466958] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.config\n'}
+[2.467055] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf.xacro\n'}
+[2.467147] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/parts.sdf.xacro\n'}
+[2.467244] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel\n'}
+[2.469486] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.config\n'}
+[2.469932] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf.xacro\n'}
+[2.470357] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/parts.sdf.xacro\n'}
+[2.470683] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4\n'}
+[2.470811] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.config\n'}
+[2.470903] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf.xacro\n'}
+[2.471213] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3\n'}
+[2.471296] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.config\n'}
+[2.471370] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf.xacro\n'}
+[2.471444] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3\n'}
+[2.471518] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.config\n'}
+[2.471591] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf.xacro\n'}
+[2.471686] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel\n'}
+[2.471765] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.config\n'}
+[2.471863] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf.xacro\n'}
+[2.472120] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim.stl\n'}
+[2.472197] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller.stl\n'}
+[2.472283] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim_original.stl\n'}
+[2.472355] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller_original.stl\n'}
+[2.472484] (openbase_gazebo_models) StdoutLine: {'line': b'-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4\n'}
+[2.472558] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.config\n'}
+[2.472653] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf.xacro\n'}
+[2.472734] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/openbase_gazebo_models.dsv\n'}
+[2.472813] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/package_run_dependencies/openbase_gazebo_models\n'}
+[2.472898] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/parent_prefix_path/openbase_gazebo_models\n'}
+[2.473020] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.sh\n'}
+[2.473140] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.dsv\n'}
+[2.473219] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.sh\n'}
+[2.473309] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.dsv\n'}
+[2.473415] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.473537] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.473658] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.bash\n'}
+[2.473735] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.sh\n'}
+[2.473838] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.zsh\n'}
+[2.473920] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.dsv\n'}
+[2.474011] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.dsv\n'}
+[2.474086] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/packages/openbase_gazebo_models\n'}
+[2.474160] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig.cmake\n'}
+[2.474234] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig-version.cmake\n'}
+[2.474309] (openbase_gazebo_models) StdoutLine: {'line': b'-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.xml\n'}
+[2.476780] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.477002] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.481241] (openbase_gazebo_models) CommandEnded: {'returncode': 0}
+[2.497131] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.497390] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.513897] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.514114] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.514236] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.514424] (openbase_nav2_demo) JobEnded: {'identifier': 'openbase_nav2_demo', 'rc': 0}
+[2.514871] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.515013] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.518742] (urg_node2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.519379] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.519575] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.531154] (-) TimerEvent: {}
+[2.531719] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.532167] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.538068] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.538687] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.539295] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.540150] (openbase_gazebo_models) JobEnded: {'identifier': 'openbase_gazebo_models', 'rc': 0}
+[2.546417] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.548126] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.554023] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.557546] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.562074] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.569941] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.570732] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.584069] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.584693] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.596944] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.597197] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.608685] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.612704] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.619710] (dwb_more_critics) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.620722] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.621108] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.631265] (-) TimerEvent: {}
+[2.631706] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.677044] (dwb_more_critics) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[2.731406] (-) TimerEvent: {}
+[2.762541] (dwb_more_critics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.804922] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.809394] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.810234] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.833042] (-) TimerEvent: {}
+[2.835762] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.836089] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.836846] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.840118] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.857788] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[2.859016] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.867623] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.867882] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.877451] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.879512] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.880678] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.887945] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.890413] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.898580] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.908698] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.920124] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.928376] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.933164] (-) TimerEvent: {}
+[2.935751] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.952873] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.957370] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.964565] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.980660] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.986023] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.991020] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.013567] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.019941] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.029236] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.033278] (-) TimerEvent: {}
+[3.037835] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 21.0.7 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)\n'}
+[3.044303] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.048265] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.048642] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.049004] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.065765] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.069333] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.072172] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.085539] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.094648] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.102766] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.108248] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.111021] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.111310] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.112303] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.115868] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.128870] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.133444] (-) TimerEvent: {}
+[3.144753] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.152856] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.170781] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.173968] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.175580] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.175890] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.176611] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.178627] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.181103] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.186092] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.186648] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.187348] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.187647] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.190093] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.194119] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.199071] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.206025] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.206265] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.206366] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.206455] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.209122] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.210315] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.212382] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.213604] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.217175] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.218304] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.222120] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.224046] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.226102] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.226484] (urg_node2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[3.226704] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.229257] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.230007] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.230380] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.233571] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.233833] (-) TimerEvent: {}
+[3.234664] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.254107] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.254342] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.255626] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.256187] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.258069] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.260304] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.262037] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.333983] (-) TimerEvent: {}
+[3.348034] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.357525] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.359636] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.371801] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.383995] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.389588] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.390436] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.404968] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.425505] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.434131] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.434436] (-) TimerEvent: {}
+[3.444398] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.447373] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.456864] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.462161] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.481137] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.482359] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.490713] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.512010] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.517629] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.518098] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.518793] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.519507] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.528827] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.529271] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.530000] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[3.530434] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.531200] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.534543] (-) TimerEvent: {}
+[3.540090] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[3.562051] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.562295] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.562616] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.563152] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.569822] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[3.597010] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[3.600991] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[3.608102] (urg_node2) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.1.0 (/opt/ros/iron/share/diagnostic_updater/cmake)\n'}
+[3.620318] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[3.620970] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[3.623410] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[3.635565] (-) TimerEvent: {}
+[3.642872] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[3.651179] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.651463] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.672103] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.684438] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.688458] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.707380] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.735680] (-) TimerEvent: {}
+[3.811978] (urg_node2) StdoutLine: {'line': b'-- Found laser_proc: 1.0.2 (/opt/ros/iron/share/laser_proc/cmake)\n'}
+[3.835875] (-) TimerEvent: {}
+[3.856677] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.6 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[3.860814] (urg_node2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.863964] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.936077] (-) TimerEvent: {}
+[3.981919] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.984442] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.984596] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.985482] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.020163] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[4.024688] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.033727] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[4.035704] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.036152] (-) TimerEvent: {}
+[4.085977] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.088693] (urg_node2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.136283] (-) TimerEvent: {}
+[4.167044] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.215937] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[4.217013] (urg_node2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.221829] (urg_node2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (add_library):\n'}
+[4.222090] (urg_node2) StderrLine: {'line': b'  Cannot find source file:\n'}
+[4.222188] (urg_node2) StderrLine: {'line': b'\n'}
+[4.222267] (urg_node2) StderrLine: {'line': b'    urg_library/current/src/urg_sensor.c\n'}
+[4.222348] (urg_node2) StderrLine: {'line': b'\n'}
+[4.222427] (urg_node2) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[4.222509] (urg_node2) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[4.222599] (urg_node2) StderrLine: {'line': b'\n'}
+[4.222689] (urg_node2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.228760] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.229117] (urg_node2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (add_library):\n'}
+[4.229306] (urg_node2) StderrLine: {'line': b'  No SOURCES given to target: urg_c\n'}
+[4.229525] (urg_node2) StderrLine: {'line': b'\n'}
+[4.229625] (urg_node2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.233046] (urg_node2) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.236409] (-) TimerEvent: {}
+[4.237564] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.248489] (urg_node2) CommandEnded: {'returncode': 1}
+[4.272198] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 1}
+[4.275611] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[4.287915] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.292453] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[4.336556] (-) TimerEvent: {}
+[4.359348] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.370467] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.436685] (-) TimerEvent: {}
+[4.539036] (-) TimerEvent: {}
+[4.613652] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)\n'}
+[4.614339] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[4.620221] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.620613] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.638356] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.639506] (-) TimerEvent: {}
+[4.694475] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[4.721740] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[4.739647] (-) TimerEvent: {}
+[4.807723] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)\n'}
+[4.817012] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.817571] (gazebo_ros_omni_drive) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.837529] (gazebo_ros_omni_drive) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.839774] (-) TimerEvent: {}
+[4.916736] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)\n'}
+[4.928221] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.928444] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.939889] (-) TimerEvent: {}
+[4.950147] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.994021] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.014549] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Generating done\n'}
+[5.017295] (gazebo_ros_omni_drive) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/gazebo_ros_omni_drive\n'}
+[5.034170] (gazebo_ros_omni_drive) JobEnded: {'identifier': 'gazebo_ros_omni_drive', 'rc': 'SIGINT'}
+[5.039994] (-) TimerEvent: {}
+[5.098389] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)\n'}
+[5.105326] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.123905] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)\n'}
+[5.127238] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Generating done\n'}
+[5.129845] (gazebo_ros_indep_steer_drive) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/gazebo_ros_indep_steer_drive\n'}
+[5.138024] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[5.140123] (-) TimerEvent: {}
+[5.140479] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.140678] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.144671] (gazebo_ros_indep_steer_drive) JobEnded: {'identifier': 'gazebo_ros_indep_steer_drive', 'rc': 'SIGINT'}
+[5.240218] (-) TimerEvent: {}
+[5.340538] (-) TimerEvent: {}
+[5.440955] (-) TimerEvent: {}
+[5.541282] (-) TimerEvent: {}
+[5.641681] (-) TimerEvent: {}
+[5.742131] (-) TimerEvent: {}
+[5.842503] (-) TimerEvent: {}
+[5.911242] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.942624] (-) TimerEvent: {}
+[5.947484] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[5.951755] (gazebo_ros_wheel_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/gazebo_ros_wheel_odometry\n'}
+[5.966368] (dwb_more_critics) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.967439] (dwb_more_critics) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.973381] (gazebo_ros_wheel_odometry) JobEnded: {'identifier': 'gazebo_ros_wheel_odometry', 'rc': 'SIGINT'}
+[6.042751] (-) TimerEvent: {}
+[6.143109] (-) TimerEvent: {}
+[6.243472] (-) TimerEvent: {}
+[6.343820] (-) TimerEvent: {}
+[6.444170] (-) TimerEvent: {}
+[6.544529] (-) TimerEvent: {}
+[6.645016] (-) TimerEvent: {}
+[6.745404] (-) TimerEvent: {}
+[6.845788] (-) TimerEvent: {}
+[6.946210] (-) TimerEvent: {}
+[7.046584] (-) TimerEvent: {}
+[7.146993] (-) TimerEvent: {}
+[7.247358] (-) TimerEvent: {}
+[7.347742] (-) TimerEvent: {}
+[7.448027] (-) TimerEvent: {}
+[7.452323] (dwb_more_critics) StdoutLine: {'line': b'-- Found costmap_queue: 1.2.10 (/opt/ros/iron/share/costmap_queue/cmake)\n'}
+[7.455053] (dwb_more_critics) StdoutLine: {'line': b'-- Found dwb_core: 1.2.10 (/opt/ros/iron/share/dwb_core/cmake)\n'}
+[7.548142] (-) TimerEvent: {}
+[7.648502] (-) TimerEvent: {}
+[7.748881] (-) TimerEvent: {}
+[7.849188] (-) TimerEvent: {}
+[7.949486] (-) TimerEvent: {}
+[8.050205] (-) TimerEvent: {}
+[8.150575] (-) TimerEvent: {}
+[8.251639] (-) TimerEvent: {}
+[8.352021] (-) TimerEvent: {}
+[8.452334] (-) TimerEvent: {}
+[8.552673] (-) TimerEvent: {}
+[8.652999] (-) TimerEvent: {}
+[8.753384] (-) TimerEvent: {}
+[8.853726] (-) TimerEvent: {}
+[8.954124] (-) TimerEvent: {}
+[9.054482] (-) TimerEvent: {}
+[9.154807] (-) TimerEvent: {}
+[9.255190] (-) TimerEvent: {}
+[9.355512] (-) TimerEvent: {}
+[9.456022] (-) TimerEvent: {}
+[9.557414] (-) TimerEvent: {}
+[9.657800] (-) TimerEvent: {}
+[9.758295] (-) TimerEvent: {}
+[9.858707] (-) TimerEvent: {}
+[9.959118] (-) TimerEvent: {}
+[10.059501] (-) TimerEvent: {}
+[10.159877] (-) TimerEvent: {}
+[10.260246] (-) TimerEvent: {}
+[10.360606] (-) TimerEvent: {}
+[10.461034] (-) TimerEvent: {}
+[10.561477] (-) TimerEvent: {}
+[10.661847] (-) TimerEvent: {}
+[10.762186] (-) TimerEvent: {}
+[10.862523] (-) TimerEvent: {}
+[10.962859] (-) TimerEvent: {}
+[11.063237] (-) TimerEvent: {}
+[11.163596] (-) TimerEvent: {}
+[11.263902] (-) TimerEvent: {}
+[11.364245] (-) TimerEvent: {}
+[11.464559] (-) TimerEvent: {}
+[11.564907] (-) TimerEvent: {}
+[11.665251] (-) TimerEvent: {}
+[11.765561] (-) TimerEvent: {}
+[11.865865] (-) TimerEvent: {}
+[11.966208] (-) TimerEvent: {}
+[12.066601] (-) TimerEvent: {}
+[12.166960] (-) TimerEvent: {}
+[12.267313] (-) TimerEvent: {}
+[12.367646] (-) TimerEvent: {}
+[12.468032] (-) TimerEvent: {}
+[12.568376] (-) TimerEvent: {}
+[12.668740] (-) TimerEvent: {}
+[12.769086] (-) TimerEvent: {}
+[12.869437] (-) TimerEvent: {}
+[12.969795] (-) TimerEvent: {}
+[13.070098] (-) TimerEvent: {}
+[13.170420] (-) TimerEvent: {}
+[13.270765] (-) TimerEvent: {}
+[13.371280] (-) TimerEvent: {}
+[13.471653] (-) TimerEvent: {}
+[13.572019] (-) TimerEvent: {}
+[13.672335] (-) TimerEvent: {}
+[13.772701] (-) TimerEvent: {}
+[13.873128] (-) TimerEvent: {}
+[13.973414] (-) TimerEvent: {}
+[14.073712] (-) TimerEvent: {}
+[14.174111] (-) TimerEvent: {}
+[14.274491] (-) TimerEvent: {}
+[14.374852] (-) TimerEvent: {}
+[14.475434] (-) TimerEvent: {}
+[14.575797] (-) TimerEvent: {}
+[14.676181] (-) TimerEvent: {}
+[14.776530] (-) TimerEvent: {}
+[14.876945] (-) TimerEvent: {}
+[14.977313] (-) TimerEvent: {}
+[15.077672] (-) TimerEvent: {}
+[15.177990] (-) TimerEvent: {}
+[15.278348] (-) TimerEvent: {}
+[15.378653] (-) TimerEvent: {}
+[15.478975] (-) TimerEvent: {}
+[15.579266] (-) TimerEvent: {}
+[15.679590] (-) TimerEvent: {}
+[15.780007] (-) TimerEvent: {}
+[15.880402] (-) TimerEvent: {}
+[15.980734] (-) TimerEvent: {}
+[16.081028] (-) TimerEvent: {}
+[16.181393] (-) TimerEvent: {}
+[16.281696] (-) TimerEvent: {}
+[16.382003] (-) TimerEvent: {}
+[16.482358] (-) TimerEvent: {}
+[16.582694] (-) TimerEvent: {}
+[16.683012] (-) TimerEvent: {}
+[16.783315] (-) TimerEvent: {}
+[16.883695] (-) TimerEvent: {}
+[16.984126] (-) TimerEvent: {}
+[17.004619] (dwb_more_critics) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[17.084268] (-) TimerEvent: {}
+[17.184717] (-) TimerEvent: {}
+[17.285028] (-) TimerEvent: {}
+[17.385414] (-) TimerEvent: {}
+[17.485792] (-) TimerEvent: {}
+[17.586103] (-) TimerEvent: {}
+[17.686409] (-) TimerEvent: {}
+[17.786737] (-) TimerEvent: {}
+[17.887033] (-) TimerEvent: {}
+[17.987359] (-) TimerEvent: {}
+[18.087684] (-) TimerEvent: {}
+[18.187999] (-) TimerEvent: {}
+[18.288346] (-) TimerEvent: {}
+[18.388672] (-) TimerEvent: {}
+[18.488979] (-) TimerEvent: {}
+[18.589263] (-) TimerEvent: {}
+[18.689586] (-) TimerEvent: {}
+[18.789980] (-) TimerEvent: {}
+[18.890284] (-) TimerEvent: {}
+[18.990590] (-) TimerEvent: {}
+[19.090887] (-) TimerEvent: {}
+[19.191264] (-) TimerEvent: {}
+[19.291648] (-) TimerEvent: {}
+[19.392159] (-) TimerEvent: {}
+[19.492545] (-) TimerEvent: {}
+[19.592984] (-) TimerEvent: {}
+[19.693366] (-) TimerEvent: {}
+[19.793670] (-) TimerEvent: {}
+[19.894103] (-) TimerEvent: {}
+[19.994505] (-) TimerEvent: {}
+[20.094747] (-) TimerEvent: {}
+[20.195093] (-) TimerEvent: {}
+[20.295431] (-) TimerEvent: {}
+[20.395755] (-) TimerEvent: {}
+[20.496023] (-) TimerEvent: {}
+[20.596310] (-) TimerEvent: {}
+[20.696622] (-) TimerEvent: {}
+[20.796897] (-) TimerEvent: {}
+[20.897183] (-) TimerEvent: {}
+[20.997460] (-) TimerEvent: {}
+[21.097738] (-) TimerEvent: {}
+[21.198045] (-) TimerEvent: {}
+[21.298382] (-) TimerEvent: {}
+[21.398663] (-) TimerEvent: {}
+[21.498975] (-) TimerEvent: {}
+[21.599307] (-) TimerEvent: {}
+[21.699659] (-) TimerEvent: {}
+[21.799971] (-) TimerEvent: {}
+[21.900266] (-) TimerEvent: {}
+[22.000559] (-) TimerEvent: {}
+[22.100909] (-) TimerEvent: {}
+[22.201268] (-) TimerEvent: {}
+[22.301628] (-) TimerEvent: {}
+[22.401991] (-) TimerEvent: {}
+[22.502301] (-) TimerEvent: {}
+[22.602628] (-) TimerEvent: {}
+[22.702978] (-) TimerEvent: {}
+[22.803305] (-) TimerEvent: {}
+[22.903606] (-) TimerEvent: {}
+[23.003958] (-) TimerEvent: {}
+[23.104318] (-) TimerEvent: {}
+[23.204659] (-) TimerEvent: {}
+[23.304994] (-) TimerEvent: {}
+[23.405324] (-) TimerEvent: {}
+[23.505649] (-) TimerEvent: {}
+[23.605992] (-) TimerEvent: {}
+[23.706294] (-) TimerEvent: {}
+[23.806639] (-) TimerEvent: {}
+[23.907006] (-) TimerEvent: {}
+[24.007393] (-) TimerEvent: {}
+[24.107838] (-) TimerEvent: {}
+[24.209246] (-) TimerEvent: {}
+[24.309656] (-) TimerEvent: {}
+[24.410085] (-) TimerEvent: {}
+[24.502536] (dwb_more_critics) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[24.510177] (-) TimerEvent: {}
+[24.610534] (-) TimerEvent: {}
+[24.620815] (dwb_more_critics) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[24.621173] (dwb_more_critics) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tm/nav2-sample/src/OpenBase/dwb_more_critics/include\n'}
+[24.621248] (dwb_more_critics) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[24.622036] (dwb_more_critics) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[24.622155] (dwb_more_critics) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[24.622669] (dwb_more_critics) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[24.623775] (dwb_more_critics) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[24.623980] (dwb_more_critics) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[24.624366] (dwb_more_critics) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[24.628012] (dwb_more_critics) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.709086] (dwb_more_critics) StdoutLine: {'line': b'-- Generating done\n'}
+[24.710619] (-) TimerEvent: {}
+[24.712878] (dwb_more_critics) StdoutLine: {'line': b'-- Build files have been written to: /home/tm/nav2-sample/build/dwb_more_critics\n'}
+[24.736070] (dwb_more_critics) JobEnded: {'identifier': 'dwb_more_critics', 'rc': 'SIGINT'}
+[24.746973] (-) EventReactorShutdown: {}

@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tm/nav2-sample/build/openbase_gazebo_models
+[  9%] [34m[1mGenerating openbase_omni3.sdf[0m
+[ 18%] [34m[1mGenerating simplified_omni3.sdf[0m
+[ 27%] [34m[1mGenerating simple_omni_wheel.sdf[0m
+[ 36%] [34m[1mGenerating damped_omni3.sdf[0m
+[ 45%] [34m[1mGenerating unicycle_wheel.sdf[0m
+[ 54%] [34m[1mGenerating omni_wheel.sdf[0m
+[ 63%] [34m[1mGenerating nav_omni4.sdf[0m
+[ 72%] [34m[1mGenerating damped_omni4.sdf[0m
+[ 72%] Built target simple_omni_wheel
+[ 72%] Built target openbase_omni3
+[ 81%] [34m[1mGenerating indep_steer.sdf[0m
+[ 81%] Built target damped_omni3
+[ 90%] [34m[1mGenerating primitive_omni_wheel.sdf[0m
+[ 90%] Built target nav_omni4
+[ 90%] Built target damped_omni4
+[100%] [34m[1mGenerating omni4.sdf[0m
+[100%] Built target simplified_omni3
+[100%] Built target unicycle_wheel
+[100%] Built target indep_steer
+[100%] Built target omni_wheel
+[100%] Built target primitive_omni_wheel
+[100%] Built target omni4
+-- Install configuration: ""
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body_reduced.stl
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body.stl
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.sdf
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/parts.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/parts.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf.xacro
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim.stl
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller.stl
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim_original.stl
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller_original.stl
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.config
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/openbase_gazebo_models.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/package_run_dependencies/openbase_gazebo_models
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/parent_prefix_path/openbase_gazebo_models
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.bash
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.zsh
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/packages/openbase_gazebo_models
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig.cmake
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig-version.cmake
+-- Installing: /home/tm/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.xml

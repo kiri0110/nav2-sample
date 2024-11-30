@@ -1,0 +1,34 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dwb_more_critics.dir/src/rotate_to_goal_pose.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdwb_more_critics.so[0m
+[100%] Built target dwb_more_critics
+-- Install configuration: "Release"
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/lib/libdwb_more_critics.so
+-- Set runtime path of "/home/tm/nav2-sample/install/dwb_more_critics/lib/libdwb_more_critics.so" to ""
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/include/
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/include//dwb_more_critics
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/include//dwb_more_critics/line_iterator.hpp
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/include//dwb_more_critics/alignment_util.hpp
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/include//dwb_more_critics/rotate_to_goal_pose.hpp
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/default_critics.xml
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/library_path.sh
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/library_path.dsv
+-- Up-to-date: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/default_critics.xml
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/ament_index/resource_index/package_run_dependencies/dwb_more_critics
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/ament_index/resource_index/parent_prefix_path/dwb_more_critics
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/ament_prefix_path.sh
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/ament_prefix_path.dsv
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/path.sh
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/environment/path.dsv
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/local_setup.bash
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/local_setup.sh
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/local_setup.zsh
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/local_setup.dsv
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.dsv
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/ament_index/resource_index/packages/dwb_more_critics
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_more_critics
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/cmake/dwb_more_criticsConfig.cmake
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/cmake/dwb_more_criticsConfig-version.cmake
+-- Installing: /home/tm/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.xml

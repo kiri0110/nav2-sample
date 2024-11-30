@@ -1,0 +1,1 @@
+Invoking command in '/home/tm/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tm/nav2-sample/src/OpenBase/dwb_more_critics -DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/dwb_more_critics

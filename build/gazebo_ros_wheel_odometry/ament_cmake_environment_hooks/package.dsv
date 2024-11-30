@@ -1,0 +1,4 @@
+source;share/gazebo_ros_wheel_odometry/local_setup.bash
+source;share/gazebo_ros_wheel_odometry/local_setup.dsv
+source;share/gazebo_ros_wheel_odometry/local_setup.sh
+source;share/gazebo_ros_wheel_odometry/local_setup.zsh

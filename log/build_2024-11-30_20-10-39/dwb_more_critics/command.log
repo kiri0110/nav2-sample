@@ -1,0 +1,4 @@
+Invoking command in '/home/tm/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tm/nav2-sample/build/dwb_more_critics -- -j8 -l8
+Invoked command in '/home/tm/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tm/nav2-sample/build/dwb_more_critics -- -j8 -l8
+Invoking command in '/home/tm/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tm/nav2-sample/build/dwb_more_critics
+Invoked command in '/home/tm/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tm/nav2-sample/build/dwb_more_critics

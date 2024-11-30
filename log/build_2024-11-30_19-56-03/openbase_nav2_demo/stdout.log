@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tm/nav2-sample/build/openbase_nav2_demo
+[100%] [34m[1mGenerating nav_omni4.urdf[0m
+[100%] Built target nav_omni4
+-- Install configuration: ""
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf/nav_omni4.urdf
+-- Up-to-date: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/urdf/nav_omni4.urdf.xacro
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/simple.launch.cpython-310.pyc
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/costmap_filter_info.launch.cpython-310.pyc
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/__pycache__/omni4_simulation_launch.cpython-310.pyc
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/omni4_simulation_launch.py
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/simple.launch.py
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/omni4_gazebo.launch.py
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/launch/costmap_filter_info.launch.py
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_bt.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics_no_keepout.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/keepout_params.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics_fast.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_critics.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_through_poses_bt.xml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_r2.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_localcostmap_322_inflation.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_params.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/map_amcl_params2.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/map_amcl_params.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_to_pose_bt.xml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/my_nav_to_pose_bt_updateonly.xml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/params/nav2_params_dwb.yaml
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/rviz
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/rviz/nav2_default_view.rviz
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/worlds
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/worlds/world_only.model
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/package_run_dependencies/openbase_nav2_demo
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/parent_prefix_path/openbase_nav2_demo
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/ament_prefix_path.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/path.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/environment/path.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.bash
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.sh
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.zsh
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/local_setup.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.dsv
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/ament_index/resource_index/packages/openbase_nav2_demo
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/cmake/openbase_nav2_demoConfig.cmake
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/cmake/openbase_nav2_demoConfig-version.cmake
+-- Installing: /home/tm/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.xml
