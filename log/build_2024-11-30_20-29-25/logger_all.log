@@ -1,0 +1,749 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4476566320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4476565d80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4476565d80>>, mixin_verb=('build',))
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.276s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robostep/nav2-sample'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/ROS) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/ROS) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/ROS) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/dwb_more_critics) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/dwb_more_critics' with type 'ros.ament_cmake' and name 'dwb_more_critics'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_indep_steer_drive) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/gazebo_ros_indep_steer_drive' with type 'ros.ament_cmake' and name 'gazebo_ros_indep_steer_drive'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_omni_drive) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/gazebo_ros_omni_drive' with type 'ros.ament_cmake' and name 'gazebo_ros_omni_drive'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/gazebo_ros_wheel_odometry) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/gazebo_ros_wheel_odometry' with type 'ros.ament_cmake' and name 'gazebo_ros_wheel_odometry'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/images) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_gazebo_models) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/openbase_gazebo_models' with type 'ros.ament_cmake' and name 'openbase_gazebo_models'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/openbase_nav2_demo) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenBase/openbase_nav2_demo' with type 'ros.ament_cmake' and name 'openbase_nav2_demo'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/tutorial) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenBase/world) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_base) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/config) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/launch/__pycache__) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/map) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation/rviz) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node2) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node2' with type 'ros.ament_cmake' and name 'urg_node2'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(utils) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/iron
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'dwb_more_critics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'dwb_more_critics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/dwb_more_critics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/dwb_more_critics', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/dwb_more_critics', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_indep_steer_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_indep_steer_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_omni_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_omni_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_omni_drive', 'symlink_install': False, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_wheel_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_wheel_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_gazebo_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'openbase_gazebo_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/openbase_gazebo_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/openbase_gazebo_models', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'openbase_nav2_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'openbase_nav2_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/openbase_nav2_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/openbase_nav2_demo', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/OpenBase/openbase_nav2_demo', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robostep/nav2-sample/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robostep/nav2-sample/install/urg_node2', 'merge_install': False, 'path': '/home/robostep/nav2-sample/src/urg_node2', 'symlink_install': False, 'test_result_base': None}
+[0.387s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.388s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/dwb_more_critics' with build type 'ament_cmake'
+[0.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/dwb_more_critics'
+[0.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_omni_drive' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_omni_drive'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models' with build type 'ament_cmake'
+[0.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/OpenBase/openbase_nav2_demo' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/OpenBase/openbase_nav2_demo'
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.409s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robostep/nav2-sample/src/urg_node2' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robostep/nav2-sample/src/urg_node2'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/dwb_more_critics -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/dwb_more_critics
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_omni_drive -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_omni_drive
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_gazebo_models
+[0.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_nav2_demo -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_nav2_demo
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/urg_node2
+[1.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_nav2_demo -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_nav2_demo
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_nav2_demo -- -j8 -l8
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_gazebo_models
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_nav2_demo -- -j8 -l8
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_nav2_demo': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_nav2_demo
+[1.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
+[1.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openbase_nav2_demo)
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_nav2_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_nav2_demo
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo' for CMake module files
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo' for CMake config files
+[1.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('openbase_nav2_demo', 'cmake_prefix_path')
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.ps1'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.sh'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/bin'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/lib/pkgconfig/openbase_nav2_demo.pc'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/lib/python3.10/site-packages'
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/bin'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.sh'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.bash'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.zsh'
+[1.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/openbase_nav2_demo/share/colcon-core/packages/openbase_nav2_demo)
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_gazebo_models
+[2.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openbase_nav2_demo)
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo' for CMake module files
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo' for CMake config files
+[2.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('openbase_nav2_demo', 'cmake_prefix_path')
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/hook/cmake_prefix_path.sh'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/lib/pkgconfig/openbase_nav2_demo.pc'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/lib/python3.10/site-packages'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_nav2_demo/bin'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.dsv'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.sh'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.bash'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_nav2_demo/share/openbase_nav2_demo/package.zsh'
+[2.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/openbase_nav2_demo/share/colcon-core/packages/openbase_nav2_demo)
+[2.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openbase_gazebo_models)
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models' for CMake module files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models' for CMake config files
+[2.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_gazebo_models
+[2.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('openbase_gazebo_models', 'cmake_prefix_path')
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.sh'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/bin'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/lib/pkgconfig/openbase_gazebo_models.pc'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/lib/python3.10/site-packages'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/bin'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.ps1'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.dsv'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.sh'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.bash'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.zsh'
+[2.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/openbase_gazebo_models/share/colcon-core/packages/openbase_gazebo_models)
+[2.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openbase_gazebo_models)
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models' for CMake module files
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models' for CMake config files
+[2.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('openbase_gazebo_models', 'cmake_prefix_path')
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/hook/cmake_prefix_path.sh'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/bin'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/lib/pkgconfig/openbase_gazebo_models.pc'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/openbase_gazebo_models/bin'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.bash'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/openbase_gazebo_models/share/colcon-core/packages/openbase_gazebo_models)
+[3.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/urg_node2 -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/urg_node2
+[3.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/urg_node2 -- -j8 -l8
+[3.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_indep_steer_drive -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive
+[3.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive -- -j8 -l8
+[4.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_omni_drive -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_omni_drive
+[4.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_omni_drive -- -j8 -l8
+[5.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/gazebo_ros_wheel_odometry -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry
+[5.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry -- -j8 -l8
+[23.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/urg_node2 -- -j8 -l8
+[23.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/urg_node2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/urg_node2
+[23.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[23.946s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2' for CMake module files
+[23.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/urg_node2
+[23.947s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2' for CMake config files
+[23.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[23.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[23.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[23.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[23.949s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib'
+[23.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[23.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[23.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[23.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[23.951s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/bin'
+[23.952s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[23.952s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib/python3.10/site-packages'
+[23.952s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/bin'
+[23.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.ps1'
+[23.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.dsv'
+[23.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.sh'
+[23.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.bash'
+[23.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.zsh'
+[23.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/urg_node2/share/colcon-core/packages/urg_node2)
+[24.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
+[24.010s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2' for CMake module files
+[24.010s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2' for CMake config files
+[24.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
+[24.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[24.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[24.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[24.013s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib'
+[24.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
+[24.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[24.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[24.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[24.015s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/bin'
+[24.015s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[24.016s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/lib/python3.10/site-packages'
+[24.016s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/urg_node2/bin'
+[24.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.ps1'
+[24.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.dsv'
+[24.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.sh'
+[24.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.bash'
+[24.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/urg_node2/share/urg_node2/package.zsh'
+[24.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/urg_node2/share/colcon-core/packages/urg_node2)
+[27.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive -- -j8 -l8
+[27.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive
+[27.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_indep_steer_drive)
+[27.177s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive' for CMake module files
+[27.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_indep_steer_drive
+[27.178s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive' for CMake config files
+[27.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_indep_steer_drive', 'cmake_prefix_path')
+[27.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.ps1'
+[27.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.dsv'
+[27.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.sh'
+[27.180s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib'
+[27.180s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/bin'
+[27.180s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib/pkgconfig/gazebo_ros_indep_steer_drive.pc'
+[27.181s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib/python3.10/site-packages'
+[27.181s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/bin'
+[27.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.ps1'
+[27.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.dsv'
+[27.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.sh'
+[27.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.bash'
+[27.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.zsh'
+[27.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/colcon-core/packages/gazebo_ros_indep_steer_drive)
+[27.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_indep_steer_drive)
+[27.212s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive' for CMake module files
+[27.212s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive' for CMake config files
+[27.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_indep_steer_drive', 'cmake_prefix_path')
+[27.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.ps1'
+[27.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.dsv'
+[27.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/hook/cmake_prefix_path.sh'
+[27.215s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib'
+[27.215s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/bin'
+[27.215s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib/pkgconfig/gazebo_ros_indep_steer_drive.pc'
+[27.215s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/lib/python3.10/site-packages'
+[27.216s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/bin'
+[27.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.ps1'
+[27.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.dsv'
+[27.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.sh'
+[27.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.bash'
+[27.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/gazebo_ros_indep_steer_drive/package.zsh'
+[27.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_indep_steer_drive/share/colcon-core/packages/gazebo_ros_indep_steer_drive)
+[27.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_omni_drive -- -j8 -l8
+[27.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_omni_drive
+[27.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_omni_drive)
+[27.636s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive' for CMake module files
+[27.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_omni_drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_omni_drive
+[27.637s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive' for CMake config files
+[27.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_omni_drive', 'cmake_prefix_path')
+[27.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.ps1'
+[27.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.dsv'
+[27.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.sh'
+[27.640s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib'
+[27.640s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/bin'
+[27.640s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib/pkgconfig/gazebo_ros_omni_drive.pc'
+[27.640s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib/python3.10/site-packages'
+[27.641s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/bin'
+[27.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.ps1'
+[27.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.dsv'
+[27.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.sh'
+[27.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.bash'
+[27.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.zsh'
+[27.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/colcon-core/packages/gazebo_ros_omni_drive)
+[27.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_omni_drive)
+[27.671s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive' for CMake module files
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive' for CMake config files
+[27.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_omni_drive', 'cmake_prefix_path')
+[27.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.ps1'
+[27.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.dsv'
+[27.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/hook/cmake_prefix_path.sh'
+[27.674s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib'
+[27.674s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/bin'
+[27.674s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib/pkgconfig/gazebo_ros_omni_drive.pc'
+[27.675s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/lib/python3.10/site-packages'
+[27.675s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/bin'
+[27.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.ps1'
+[27.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.dsv'
+[27.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.sh'
+[27.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.bash'
+[27.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/gazebo_ros_omni_drive/package.zsh'
+[27.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_omni_drive/share/colcon-core/packages/gazebo_ros_omni_drive)
+[27.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry -- -j8 -l8
+[27.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry
+[27.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_wheel_odometry)
+[27.907s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry' for CMake module files
+[27.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry
+[27.908s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry' for CMake config files
+[27.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_wheel_odometry', 'cmake_prefix_path')
+[27.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.ps1'
+[27.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.dsv'
+[27.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.sh'
+[27.910s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib'
+[27.910s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/bin'
+[27.910s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib/pkgconfig/gazebo_ros_wheel_odometry.pc'
+[27.910s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib/python3.10/site-packages'
+[27.911s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/bin'
+[27.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.ps1'
+[27.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.dsv'
+[27.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.sh'
+[27.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.bash'
+[27.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.zsh'
+[27.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/colcon-core/packages/gazebo_ros_wheel_odometry)
+[27.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_wheel_odometry)
+[27.941s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry' for CMake module files
+[27.942s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry' for CMake config files
+[27.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_wheel_odometry', 'cmake_prefix_path')
+[27.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.ps1'
+[27.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.dsv'
+[27.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/hook/cmake_prefix_path.sh'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/bin'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib/pkgconfig/gazebo_ros_wheel_odometry.pc'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/lib/python3.10/site-packages'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/bin'
+[27.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.ps1'
+[27.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.dsv'
+[27.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.sh'
+[27.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.bash'
+[27.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/gazebo_ros_wheel_odometry/package.zsh'
+[27.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/gazebo_ros_wheel_odometry/share/colcon-core/packages/gazebo_ros_wheel_odometry)
+[30.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/dwb_more_critics -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/dwb_more_critics
+[30.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/dwb_more_critics -- -j8 -l8
+[36.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/dwb_more_critics -- -j8 -l8
+[36.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/dwb_more_critics
+[36.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dwb_more_critics)
+[36.557s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics' for CMake module files
+[36.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/dwb_more_critics
+[36.558s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics' for CMake config files
+[36.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('dwb_more_critics', 'cmake_prefix_path')
+[36.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.ps1'
+[36.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.dsv'
+[36.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.sh'
+[36.560s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib'
+[36.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('dwb_more_critics', 'ld_library_path_lib')
+[36.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.ps1'
+[36.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.dsv'
+[36.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.sh'
+[36.561s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/bin'
+[36.561s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib/pkgconfig/dwb_more_critics.pc'
+[36.562s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib/python3.10/site-packages'
+[36.562s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/bin'
+[36.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.ps1'
+[36.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.dsv'
+[36.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.sh'
+[36.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.bash'
+[36.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.zsh'
+[36.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/dwb_more_critics/share/colcon-core/packages/dwb_more_critics)
+[36.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dwb_more_critics)
+[36.590s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics' for CMake module files
+[36.590s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics' for CMake config files
+[36.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('dwb_more_critics', 'cmake_prefix_path')
+[36.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.ps1'
+[36.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.dsv'
+[36.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/cmake_prefix_path.sh'
+[36.592s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib'
+[36.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('dwb_more_critics', 'ld_library_path_lib')
+[36.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.ps1'
+[36.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.dsv'
+[36.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/hook/ld_library_path_lib.sh'
+[36.593s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/bin'
+[36.593s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib/pkgconfig/dwb_more_critics.pc'
+[36.593s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/lib/python3.10/site-packages'
+[36.593s] Level 1:colcon.colcon_core.environment:checking '/home/robostep/nav2-sample/install/dwb_more_critics/bin'
+[36.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.ps1'
+[36.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.dsv'
+[36.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.sh'
+[36.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.bash'
+[36.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/robostep/nav2-sample/install/dwb_more_critics/share/dwb_more_critics/package.zsh'
+[36.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robostep/nav2-sample/install/dwb_more_critics/share/colcon-core/packages/dwb_more_critics)
+[36.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.596s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.602s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.602s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.613s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robostep/nav2-sample/install/local_setup.ps1'
+[36.614s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robostep/nav2-sample/install/_local_setup_util_ps1.py'
+[36.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robostep/nav2-sample/install/setup.ps1'
+[36.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robostep/nav2-sample/install/local_setup.sh'
+[36.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robostep/nav2-sample/install/_local_setup_util_sh.py'
+[36.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robostep/nav2-sample/install/setup.sh'
+[36.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robostep/nav2-sample/install/local_setup.bash'
+[36.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robostep/nav2-sample/install/setup.bash'
+[36.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robostep/nav2-sample/install/local_setup.zsh'
+[36.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robostep/nav2-sample/install/setup.zsh'

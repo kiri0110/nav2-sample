@@ -1,0 +1,119 @@
+[0.028s] Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_gazebo_models
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.356s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.485s] -- Detecting CXX compile features - done
+[0.488s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.737s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.873s] -- Found xacro: 2.0.11 (/opt/ros/iron/share/xacro/cmake)
+[0.977s] -- Configuring done
+[0.993s] -- Generating done
+[0.996s] -- Build files have been written to: /home/robostep/nav2-sample/build/openbase_gazebo_models
+[0.999s] Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/openbase_gazebo_models
+[1.000s] Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
+[1.275s] [  9%] [34m[1mGenerating openbase_omni3.sdf[0m
+[1.276s] [ 18%] [34m[1mGenerating omni_wheel.sdf[0m
+[1.276s] [ 27%] [34m[1mGenerating simple_omni_wheel.sdf[0m
+[1.290s] [ 36%] [34m[1mGenerating damped_omni3.sdf[0m
+[1.291s] [ 45%] [34m[1mGenerating simplified_omni3.sdf[0m
+[1.291s] [ 54%] [34m[1mGenerating damped_omni4.sdf[0m
+[1.291s] [ 63%] [34m[1mGenerating nav_omni4.sdf[0m
+[1.291s] [ 72%] [34m[1mGenerating unicycle_wheel.sdf[0m
+[1.291s] [ 72%] Built target openbase_omni3
+[1.298s] [ 81%] [34m[1mGenerating indep_steer.sdf[0m
+[1.301s] [ 81%] Built target omni_wheel
+[1.320s] [ 81%] Built target unicycle_wheel
+[1.328s] [ 81%] Built target simplified_omni3
+[1.352s] [ 81%] Built target simple_omni_wheel
+[1.359s] [ 81%] Built target damped_omni4
+[1.365s] [ 81%] Built target nav_omni4
+[1.378s] [ 90%] [34m[1mGenerating primitive_omni_wheel.sdf[0m
+[1.378s] [ 90%] Built target damped_omni3
+[1.383s] [100%] [34m[1mGenerating omni4.sdf[0m
+[1.451s] [100%] Built target indep_steer
+[1.535s] [100%] Built target omni4
+[1.552s] [100%] Built target primitive_omni_wheel
+[1.564s] Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
+[1.605s] Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_gazebo_models
+[1.615s] -- Install configuration: ""
+[1.615s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf
+[1.616s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf
+[1.616s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf
+[1.616s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf
+[1.616s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf
+[1.617s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf
+[1.617s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf
+[1.617s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf
+[1.618s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf
+[1.618s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf
+[1.620s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf
+[1.620s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models
+[1.621s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer
+[1.621s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.sdf.xacro
+[1.621s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/indep_steer/model.config
+[1.621s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel
+[1.621s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/parts.sdf.xacro
+[1.621s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.sdf.xacro
+[1.622s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel/model.config
+[1.625s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel
+[1.625s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim_original.stl
+[1.625s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller.stl
+[1.625s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.sdf.xacro
+[1.626s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/roller_original.stl
+[1.626s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/model.config
+[1.627s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni_wheel/rim.stl
+[1.627s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3
+[1.627s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.sdf.xacro
+[1.627s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simplified_omni3/model.config
+[1.627s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel
+[1.628s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.sdf.xacro
+[1.628s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/unicycle_wheel/model.config
+[1.628s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4
+[1.629s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.sdf.xacro
+[1.629s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/nav_omni4/model.config
+[1.630s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4
+[1.631s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.sdf.xacro
+[1.632s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/omni4/model.config
+[1.632s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test
+[1.632s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.sdf
+[1.633s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/primitive_omni_wheel_test/model.config
+[1.633s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel
+[1.633s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/parts.sdf.xacro
+[1.635s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.sdf.xacro
+[1.635s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/simple_omni_wheel/model.config
+[1.635s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3
+[1.636s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body_reduced.stl
+[1.636s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.sdf.xacro
+[1.636s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/model.config
+[1.637s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/openbase_omni3/body.stl
+[1.637s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4
+[1.637s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.sdf.xacro
+[1.637s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni4/model.config
+[1.637s] -- Up-to-date: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3
+[1.637s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.sdf.xacro
+[1.638s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/models/damped_omni3/model.config
+[1.638s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/openbase_gazebo_models.dsv
+[1.638s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/package_run_dependencies/openbase_gazebo_models
+[1.638s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/parent_prefix_path/openbase_gazebo_models
+[1.638s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.sh
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/ament_prefix_path.dsv
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.sh
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/environment/path.dsv
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.bash
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.sh
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.zsh
+[1.639s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/local_setup.dsv
+[1.640s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.dsv
+[1.640s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/ament_index/resource_index/packages/openbase_gazebo_models
+[1.640s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig.cmake
+[1.640s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/cmake/openbase_gazebo_modelsConfig-version.cmake
+[1.641s] -- Installing: /home/robostep/nav2-sample/install/openbase_gazebo_models/share/openbase_gazebo_models/package.xml
+[1.643s] Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/openbase_gazebo_models

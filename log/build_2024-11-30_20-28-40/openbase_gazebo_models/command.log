@@ -1,0 +1,2 @@
+Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
+Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8

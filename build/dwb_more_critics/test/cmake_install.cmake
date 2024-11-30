@@ -1,8 +1,8 @@
-# Install script for directory: /home/tm/nav2-sample/src/OpenBase/dwb_more_critics/test
+# Install script for directory: /home/robostep/nav2-sample/src/OpenBase/dwb_more_critics/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tm/nav2-sample/install/dwb_more_critics")
+  set(CMAKE_INSTALL_PREFIX "/home/robostep/nav2-sample/install/dwb_more_critics")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

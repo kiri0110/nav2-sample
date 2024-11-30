@@ -1,0 +1,2 @@
+Invoking command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry -- -j8 -l8
+Invoked command in '/home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/gazebo_ros_wheel_odometry -- -j8 -l8
