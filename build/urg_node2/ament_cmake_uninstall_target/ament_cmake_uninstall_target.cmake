@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/robostep/nav2-sample/build/urg_node2/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

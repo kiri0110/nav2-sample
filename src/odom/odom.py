@@ -32,9 +32,10 @@ class PyOdom(Node):
     def on_received_message(self, msg):
         if msg.id == 0x30:
             can_data = msg.data
-            self.yaw = int.from_bytes(can_data[0:2], 'big', signed=True) / 10.0 * self.pi / 180.0
-            self.y = -1.0 * int.from_bytes(can_data[2:4], 'big', signed=True) / 1000.0
-            self.x = 1.0 * int.from_bytes(can_data[4:6], 'big', signed=True) / 1000.0
+            #self.yaw = int.from_bytes(can_data[0:2], 'little', signed=True) / 10.0 * self.pi / 180.0
+            self.yaw = int.from_bytes(can_data[0:2], 'little', signed=True)  * self.pi / 180.0
+            self.y = -1.0 * int.from_bytes(can_data[2:4], 'little', signed=True) / 1000.0
+            self.x = 1.0 * int.from_bytes(can_data[4:6], 'little', signed=True) / 1000.0
 
     def timer_callback(self):
         print(self.x)
