@@ -1,5 +1,0 @@
-# map_server_params.yaml
-map_server_amcl:
-  ros__parameters:
-    yaml_filename: "/home/robostep/OpenBase/openbase_nav2_demo/map/nhk_field_amcl.yaml"
-    topic_name: "map_amcl"

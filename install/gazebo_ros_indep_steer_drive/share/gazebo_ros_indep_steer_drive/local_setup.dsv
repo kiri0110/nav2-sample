@@ -1,3 +1,0 @@
-source;share/gazebo_ros_indep_steer_drive/environment/ament_prefix_path.sh
-source;share/gazebo_ros_indep_steer_drive/environment/path.sh
-source;share/gazebo_ros_indep_steer_drive/environment/gazebo_ros_indep_steer_drive.dsv
