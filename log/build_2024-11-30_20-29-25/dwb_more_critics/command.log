@@ -1,6 +1,0 @@
-Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/dwb_more_critics -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/dwb_more_critics
-Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/robostep/nav2-sample/src/OpenBase/dwb_more_critics -DCMAKE_INSTALL_PREFIX=/home/robostep/nav2-sample/install/dwb_more_critics
-Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/dwb_more_critics -- -j8 -l8
-Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/dwb_more_critics -- -j8 -l8
-Invoking command in '/home/robostep/nav2-sample/build/dwb_more_critics': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/dwb_more_critics
-Invoked command in '/home/robostep/nav2-sample/build/dwb_more_critics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/robostep/nav2-sample/build/dwb_more_critics

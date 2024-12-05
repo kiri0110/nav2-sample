@@ -1,6 +1,0 @@
-[0.031s] Invoking command in '/home/robostep/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
-[0.050s] [0mCMake Error: The current CMakeCache.txt directory /home/robostep/nav2-sample/build/openbase_gazebo_models/CMakeCache.txt is different than the directory /home/tm/nav2-sample/build/openbase_gazebo_models where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.052s] [0mCMake Error: The source directory "/home/tm/nav2-sample/src/OpenBase/openbase_gazebo_models" does not exist.
-[0.052s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.054s] gmake: *** [Makefile:380: cmake_check_build_system] Error 1
-[0.060s] Invoked command in '/home/robostep/nav2-sample/build/openbase_gazebo_models' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/robostep/nav2-sample/build/openbase_gazebo_models -- -j8 -l8

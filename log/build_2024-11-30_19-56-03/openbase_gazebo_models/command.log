@@ -1,6 +1,0 @@
-Invoking command in '/home/tm/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tm/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/openbase_gazebo_models
-Invoked command in '/home/tm/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tm/nav2-sample/src/OpenBase/openbase_gazebo_models -DCMAKE_INSTALL_PREFIX=/home/tm/nav2-sample/install/openbase_gazebo_models
-Invoking command in '/home/tm/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tm/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
-Invoked command in '/home/tm/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tm/nav2-sample/build/openbase_gazebo_models -- -j8 -l8
-Invoking command in '/home/tm/nav2-sample/build/openbase_gazebo_models': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tm/nav2-sample/build/openbase_gazebo_models
-Invoked command in '/home/tm/nav2-sample/build/openbase_gazebo_models' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tm/nav2-sample/build/openbase_gazebo_models
