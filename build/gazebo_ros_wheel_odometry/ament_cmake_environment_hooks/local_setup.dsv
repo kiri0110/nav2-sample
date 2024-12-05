@@ -1,3 +1,0 @@
-source;share/gazebo_ros_wheel_odometry/environment/ament_prefix_path.sh
-source;share/gazebo_ros_wheel_odometry/environment/path.sh
-source;share/gazebo_ros_wheel_odometry/environment/gazebo_ros_wheel_odometry.dsv
